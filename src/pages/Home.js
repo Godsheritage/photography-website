@@ -37,9 +37,14 @@ const Home = () => {
             <p className="text-[26px] lg:text-[36px] font-primary mb-6 lg:mb-12">
               DMV
             </p>
-            <Link to={"/contact"} className="btn mb-[30px]">
-              hire me
-            </Link>
+            <div className="flex flex-col gap-2 sm:flex-row sm:gap-4">
+              <Link to={"/pricing"} className="btn mb-2 sm:mb-0 sm:mr-2">
+                Book Now
+              </Link>
+              <Link to={"/portfolio"} className="btn">
+                View My Work
+              </Link>
+            </div>
           </motion.div>
           {/* image */}
           <div className="flex justify-end max-h-96 lg:max-h-max">

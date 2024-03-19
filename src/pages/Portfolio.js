@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 // import images
-import gradShot from "../img/Graduation/gradImg2.jpeg";
-import scenery from "../img/scenery/A7401968-2.jpg";
-import studioShot from "../img/Studio/studio.jpeg";
+import gradShot from "../img/Graduation/GradShots0.jpg";
+import scenery from "../img/scenery/Scenery0.jpg";
+import studioShot from "../img/Studio/studio7.jpg";
 import birthdays from "../img/birtdays/A7402184-2.jpg";
 // import link
 import { Link } from "react-router-dom";
@@ -37,59 +37,82 @@ const Portfolio = () => {
             className="flex flex-col lg:items-start"
           >
             <h1 className="h1">Portfolio</h1>
-            <p className="mb-4">
-              Our portfolio is a window into the worlds we've been privileged to<br/>
-              capture. From the spontaneous laughter of a wedding day to the<br/>
-              serene beauty of untouched landscapes, our collections are as<br/>
-              diverse as the stories they tell. Each photograph is a chapter,<br/>
-              each album a novel of memories waiting to be explored. We invite<br/>
-              you to journey through our galleries and find the moments that
-              move you.
+            <p className="mb-12 max-w-sm">
+              My portfolio is a window into the worlds I've been privileged to
+              capture. From the spontaneous laughter of a wedding day to the
+              serene beauty of untouched landscapes, my collections are as
+              diverse as the stories they tell. Each photograph is a chapter,
+              each album a novel of memories waiting to be explored. I invite
+              you to journey through my galleries and find the moments that move
+              you.
             </p>
-            <Button to="/contact" text="Make a booking" />
+            <Button to="/pricing" text="Make a booking" />
           </motion.div>
           {/* image grid */}
           <div
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className="grid grid-cols-2 lg:gap-2"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-4 lg:gap-2"
           >
             {/* image */}
 
-            <div className="max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden">
+            <div className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-[150px] sm:h-[175px] md:h-[200px] lg:h-[220px] bg-accent overflow-hidden relative">
               <Link to="/portfolio/gradshots">
                 <img
-                  className="object-cover h-full lg:w-[320px] hover:scale-110 transition-all duration-500"
+                  className="object-cover w-full h-full transition-all duration-500"
                   src={gradShot}
                   alt=""
                 />
+                <div className="absolute inset-0 bg-black bg-opacity-40 flex justify-center items-center opacity-100 transition-opacity duration-500">
+                  <span className="text-white font-bold text-sm sm:text-base md:text-lg">
+                    Graduations
+                  </span>
+                </div>
               </Link>
             </div>
-            <div className="max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden">
+
+            <div className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-[150px] sm:h-[175px] md:h-[200px] lg:h-[220px] bg-accent overflow-hidden relative">
               <Link to="/portfolio/studio">
                 <img
-                  className="object-cover h-full lg:w-[320px] hover:scale-110 transition-all duration-500"
+                  className="object-cover w-full h-full transition-all duration-500"
                   src={studioShot}
                   alt=""
                 />
+                <div className="absolute inset-0 bg-black bg-opacity-40 flex justify-center items-center opacity-100 transition-opacity duration-500">
+                  <span className="text-white font-bold text-sm sm:text-base md:text-lg">
+                    Studio
+                  </span>
+                </div>
               </Link>
             </div>
-            <div className="max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden">
+
+            <div className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-[150px] sm:h-[175px] md:h-[200px] lg:h-[220px] bg-accent overflow-hidden relative">
               <Link to="/portfolio/scenery">
                 <img
-                  className="object-cover h-full lg:w-[320px] hover:scale-110 transition-all duration-500"
+                  className="object-cover w-full h-full transition-all duration-500"
                   src={scenery}
                   alt=""
                 />
+                <div className="absolute inset-0 bg-black bg-opacity-40 flex justify-center items-center opacity-100 transition-opacity duration-500">
+                  <span className="text-white font-bold text-sm sm:text-base md:text-lg">
+                    Scenery
+                  </span>
+                </div>
               </Link>
             </div>
-            <div className="max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden">
+
+            <div className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-[150px] sm:h-[175px] md:h-[200px] lg:h-[220px] bg-accent overflow-hidden relative">
               <Link to="/portfolio/birthdays">
                 <img
-                  className="object-cover  h-full lg:w-[320px] hover:scale-110 transition-all duration-500"
+                  className="object-cover h-full lg:w-[320px] md:w-[full] transition-all duration-500"
                   src={birthdays}
                   alt=""
                 />
+                <div className="absolute inset-0 bg-black bg-opacity-40 flex justify-center items-center opacity-100 transition-opacity duration-500">
+                  <span className="text-white font-bold text-sm sm:text-base md:text-lg">
+                    Birthdays
+                  </span>
+                </div>
               </Link>
             </div>
           </div>

@@ -8,6 +8,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { motion } from "framer-motion";
 // import cursor context
 import { CursorContext } from "./context/CursorContext";
+import Footer from "./components/Footer";
 
 const App = () => {
   const { cursorVariants, cursorBG } = useContext(CursorContext);
@@ -16,6 +17,7 @@ const App = () => {
       <Router>
         <Header />
         <AnimRoutes />
+        {/* <Footer /> */}
       </Router>
       {/* cursor */}
       <motion.div
