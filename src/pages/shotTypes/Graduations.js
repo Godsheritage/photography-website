@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { transition1 } from "../../transitions";
+import Modal from "../../components/Modal";
 import { CursorContext } from "../../context/CursorContext";
 // import studioShot from "../../img/Studio/studio.jpeg";
 import GradShots0 from "../../img/Graduation/GradShots0.jpg";
@@ -27,6 +28,11 @@ import GradShots20 from "../../img/Graduation/GradShots20.jpg";
 import GradShots21 from "../../img/Graduation/GradShots21.jpg";
 import GradShots22 from "../../img/Graduation/GradShots22.jpg";
 import GradShots23 from "../../img/Graduation/GradShots23.jpg";
+import GradShots24 from "../../img/Graduation/GradShots24.jpg";
+import GradShots25 from "../../img/Graduation/GradShots25.jpg";
+import GradShots27 from "../../img/Graduation/GradShots27.jpg";
+
+
 
 const Graduations = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -55,7 +61,29 @@ const Graduations = () => {
     GradShots21,
     GradShots22,
     GradShots23,
+    GradShots24,
+    GradShots25,
+    GradShots27,
   ];
+
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const handleImageClick = (imageSrc) => {
+    setSelectedImage(imageSrc);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setSelectedImage(null);
+    setIsModalOpen(false);
+  };
+
+
+
+
+
   return (
     <motion.section
       initial={{ opacity: 0, y: "100%" }}
@@ -65,8 +93,8 @@ const Graduations = () => {
       className="section"
     >
       <div
-        onMouseEnter={mouseEnterHandler}
-        onMouseLeave={mouseLeaveHandler}
+        // onMouseEnter={mouseEnterHandler}
+        // onMouseLeave={mouseLeaveHandler}
         className="container mx-auto h-full relative overflow-y-scroll"
       >
         <h1 className="h1" style={{ textAlign: "center" }}>
@@ -80,10 +108,17 @@ const Graduations = () => {
                 gradShot,
                 index // Change 10 to the number of boxes you want
               ) => (
-                <div className="relative" key={index}>
+                <div>
                   <img
-                    className="object-cover h-80 sm:h-96 lg:h-128 w-full hover:scale-110 transition-all duration-500"
+                    className="object-cover h-80 sm:h-96 lg:h-128 hover:brightness-125 w-full transition-all duration-500"
                     src={gradShot}
+                    alt=""
+                    onClick={() => handleImageClick(gradShot)}
+                  />
+                  <Modal
+                    isOpen={isModalOpen}
+                    onClose={closeModal}
+                    imageSrc={selectedImage}
                     alt=""
                   />
                 </div>

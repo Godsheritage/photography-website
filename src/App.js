@@ -3,7 +3,10 @@ import React, { useContext } from "react";
 import Header from "./components/Header";
 import AnimRoutes from "./components/AnimRoutes";
 // import router
-import { BrowserRouter as Router } from "react-router-dom";
+// import { BrowserRouter as Router } from "react-router-dom";
+
+import { HashRouter } from "react-router-dom";
+
 // import motion
 import { motion } from "framer-motion";
 // import cursor context
@@ -14,11 +17,11 @@ const App = () => {
   const { cursorVariants, cursorBG } = useContext(CursorContext);
   return (
     <>
-      <Router>
+      <HashRouter>
         <Header />
         <AnimRoutes />
         {/* <Footer /> */}
-      </Router>
+      </HashRouter>
       {/* cursor */}
       <motion.div
         variants={cursorVariants}

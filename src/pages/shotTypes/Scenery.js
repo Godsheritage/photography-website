@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { transition1 } from "../../transitions";
 import { CursorContext } from "../../context/CursorContext";
 import Scenery0 from "../../img/scenery/Scenery0.jpg";
@@ -18,6 +18,8 @@ import Scenery12 from "../../img/scenery/Scenery12.jpg";
 import Scenery13 from "../../img/scenery/Scenery13.jpg";
 import Scenery14 from "../../img/scenery/Scenery14.jpg";
 import Scenery15 from "../../img/scenery/Scenery15.jpg";
+
+import Modal from "../../components/Modal";
 
 const Scenery = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -39,6 +41,21 @@ const Scenery = () => {
     Scenery14,
     Scenery15,
   ];
+
+
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const handleImageClick = (imageSrc) => {
+    setSelectedImage(imageSrc);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setSelectedImage(null);
+    setIsModalOpen(false);
+  };
   return (
     <motion.section
       initial={{ opacity: 0, y: "100%" }}
@@ -48,8 +65,8 @@ const Scenery = () => {
       className="section"
     >
       <div
-        onMouseEnter={mouseEnterHandler}
-        onMouseLeave={mouseLeaveHandler}
+        // onMouseEnter={mouseEnterHandler}
+        // onMouseLeave={mouseLeaveHandler}
         className="container mx-auto h-full relative overflow-y-scroll"
       >
         <h1 className="h1" style={{ textAlign: "center" }}>
@@ -60,16 +77,23 @@ const Scenery = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 p-4">
             {picsArray.map(
               (
-                imgs,
+                sceneryImages,
                 index // Change 10 to the number of boxes you want
               ) => (
-                <div className="relative" key={index}>
-                  <img
-                    className="object-cover h-80 sm:h-96 lg:h-128 w-full hover:scale-110 transition-all duration-500"
-                    src={imgs}
-                    alt=""
-                  />
-                </div>
+                <div>
+                <img
+                  className="object-cover h-80 sm:h-96 lg:h-128 hover:brightness-125 w-full transition-all duration-500"
+                  src={sceneryImages}
+                  alt=""
+                  onClick={() => handleImageClick(sceneryImages)}
+                />
+                <Modal
+                  isOpen={isModalOpen}
+                  onClose={closeModal}
+                  imageSrc={selectedImage}
+                  alt=""
+                />
+              </div>
               )
             )}
           </div>

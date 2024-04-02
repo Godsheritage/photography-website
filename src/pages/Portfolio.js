@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 // import images
-import gradShot from "../img/Graduation/GradShots0.jpg";
+import gradShot from "../img/Graduation/GradShots4.jpg";
 import scenery from "../img/scenery/Scenery0.jpg";
 import studioShot from "../img/Studio/studio7.jpg";
-import birthdays from "../img/birtdays/A7402184-2.jpg";
+import birthdays from "../img/birtdays/birthdayShot8.jpg";
 // import link
 import { Link } from "react-router-dom";
 // import motion
@@ -13,6 +13,8 @@ import { transition1 } from "../transitions";
 // import context
 import { CursorContext } from "../context/CursorContext";
 import Button from "../components/Button";
+
+
 
 const Portfolio = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -39,12 +41,11 @@ const Portfolio = () => {
             <h1 className="h1">Portfolio</h1>
             <p className="mb-12 max-w-sm">
               My portfolio is a window into the worlds I've been privileged to
-              capture. From the spontaneous laughter of a wedding day to the
-              serene beauty of untouched landscapes, my collections are as
-              diverse as the stories they tell. Each photograph is a chapter,
-              each album a novel of memories waiting to be explored. I invite
-              you to journey through my galleries and find the moments that move
-              you.
+              capture. From the proud smiles of graduation day to the serene
+              beauty of untouched landscapes, my collections are as diverse as
+              the stories they tell. Each photograph is a chapter, each album a
+              novel of memories waiting to be explored. I invite you to journey
+              through my galleries and find the moments that move you.
             </p>
             <Button to="/pricing" text="Make a booking" />
           </motion.div>
@@ -52,7 +53,7 @@ const Portfolio = () => {
           <div
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-4 lg:gap-2"
+            className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-4 lg:gap-2"
           >
             {/* image */}
 
