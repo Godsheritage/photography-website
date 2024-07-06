@@ -1,17 +1,10 @@
-import React, { useContext } from "react";
-// import components
-import Header from "./components/Header";
-import AnimRoutes from "./components/AnimRoutes";
-// import router
-// import { BrowserRouter as Router } from "react-router-dom";
-
-import { HashRouter } from "react-router-dom";
-
-// import motion
 import { motion } from "framer-motion";
-// import cursor context
-import { CursorContext } from "./context/CursorContext";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
+import React, { useContext } from "react";
+import { HashRouter } from "react-router-dom";
+import AnimRoutes from "./components/AnimRoutes";
+import { CursorContext } from "./context/CursorContext";
 
 const App = () => {
   const { cursorVariants, cursorBG } = useContext(CursorContext);
@@ -20,9 +13,7 @@ const App = () => {
       <HashRouter>
         <Header />
         <AnimRoutes />
-        {/* <Footer /> */}
       </HashRouter>
-      {/* cursor */}
       <motion.div
         variants={cursorVariants}
         animate={cursorBG}

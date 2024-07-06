@@ -1,20 +1,9 @@
-import React, { useContext } from "react";
-// import images
-import gradShot from "../img/Graduation/GradShots4.jpg";
-import scenery from "../img/scenery/Scenery0.jpg";
-import studioShot from "../img/Studio/studio7.jpg";
-import birthdays from "../img/birtdays/birthdayShot8.jpg";
-// import link
-import { Link } from "react-router-dom";
-// import motion
 import { motion } from "framer-motion";
-// import transition
-import { transition1 } from "../transitions";
-// import context
-import { CursorContext } from "../context/CursorContext";
+import { Link } from "react-router-dom";
+import React, { useContext } from "react";
 import Button from "../components/Button";
-
-
+import { transition1 } from "../transitions";
+import { CursorContext } from "../context/CursorContext";
 
 const Portfolio = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -61,7 +50,7 @@ const Portfolio = () => {
               <Link to="/portfolio/gradshots">
                 <img
                   className="object-cover w-full h-full transition-all duration-500"
-                  src={gradShot}
+                  src="https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots1.jpg"
                   alt=""
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-40 flex justify-center items-center opacity-100 transition-opacity duration-500">
@@ -76,7 +65,7 @@ const Portfolio = () => {
               <Link to="/portfolio/studio">
                 <img
                   className="object-cover w-full h-full transition-all duration-500"
-                  src={studioShot}
+                  src="https://photographysitebucket.s3.amazonaws.com/Studio/studio7.jpg"
                   alt=""
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-40 flex justify-center items-center opacity-100 transition-opacity duration-500">
@@ -91,7 +80,7 @@ const Portfolio = () => {
               <Link to="/portfolio/scenery">
                 <img
                   className="object-cover w-full h-full transition-all duration-500"
-                  src={scenery}
+                  src="https://photographysitebucket.s3.amazonaws.com/scenery/Scenery0.jpg"
                   alt=""
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-40 flex justify-center items-center opacity-100 transition-opacity duration-500">
@@ -106,7 +95,7 @@ const Portfolio = () => {
               <Link to="/portfolio/birthdays">
                 <img
                   className="object-cover h-full lg:w-[320px] md:w-[full] transition-all duration-500"
-                  src={birthdays}
+                  src="https://photographysitebucket.s3.amazonaws.com/birtdays/birthdayShot8.jpg"
                   alt=""
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-40 flex justify-center items-center opacity-100 transition-opacity duration-500">

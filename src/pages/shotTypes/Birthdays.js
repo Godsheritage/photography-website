@@ -1,28 +1,20 @@
 import { motion } from "framer-motion";
-import React, { useContext, useState } from "react";
 import Modal from "../../components/Modal";
-
 import { transition1 } from "../../transitions";
+import React, { useContext, useState } from "react";
 import { CursorContext } from "../../context/CursorContext";
-import birthdayShoot0 from "../../img/birtdays/birthdayShot0.jpg";
-import birthdayShoot5 from "../../img/birtdays/birthdayShot5.jpg";
-import birthdayShoot2 from "../../img/birtdays/birthdayShot2.jpg";
-import birthdayShoot3 from "../../img/birtdays/birthdayShot3.jpg";
-import birthdayShoot4 from "../../img/birtdays/birthdayShot4.jpg";
-import birthdayShoot6 from "../../img/birtdays/birthdayShot6.jpg";
-import birthdayShoot7 from "../../img/birtdays/birthdayShot7.jpg";
-import birthdayShoot8 from "../../img/birtdays/birthdayShot8.jpg";
+
 
 const Birthdays = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
   const picsArray = [
-    birthdayShoot0,
-    birthdayShoot2,
-    birthdayShoot5,
-    birthdayShoot3,
-    birthdayShoot4,
-    birthdayShoot6,
-    birthdayShoot7,
+    "https://photographysitebucket.s3.amazonaws.com/birtdays/birthdayShot0.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/birtdays/birthdayShot2.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/birtdays/birthdayShot5.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/birtdays/birthdayShot3.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/birtdays/birthdayShot4.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/birtdays/birthdayShot6.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/birtdays/birthdayShot7.jpg",
   ];
 
 

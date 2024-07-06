@@ -1,69 +1,43 @@
 import { motion } from "framer-motion";
-import React, { useContext, useState } from "react";
-import { transition1 } from "../../transitions";
 import Modal from "../../components/Modal";
+import { transition1 } from "../../transitions";
+import React, { useContext, useState } from "react";
 import { CursorContext } from "../../context/CursorContext";
-// import studioShot from "../../img/Studio/studio.jpeg";
-import GradShots0 from "../../img/Graduation/GradShots0.jpg";
-import GradShots1 from "../../img/Graduation/GradShots1.jpg";
-import GradShots2 from "../../img/Graduation/GradShots2.jpg";
-import GradShots3 from "../../img/Graduation/GradShots3.jpg";
-import GradShots4 from "../../img/Graduation/GradShots4.jpg";
-import GradShots5 from "../../img/Graduation/GradShots5.jpg";
-import GradShots6 from "../../img/Graduation/GradShots6.jpg";
-import GradShots7 from "../../img/Graduation/GradShots7.jpg";
-import GradShots8 from "../../img/Graduation/GradShots8.jpg";
-import GradShots9 from "../../img/Graduation/GradShots9.jpg";
-import GradShots10 from "../../img/Graduation/GradShots10.jpg";
-import GradShots11 from "../../img/Graduation/GradShots11.jpg";
-import GradShots12 from "../../img/Graduation/GradShots12.jpg";
-import GradShots13 from "../../img/Graduation/GradShots13.jpg";
-import GradShots14 from "../../img/Graduation/GradShots14.jpg";
-import GradShots15 from "../../img/Graduation/GradShots15.jpg";
-import GradShots16 from "../../img/Graduation/GradShots16.jpg";
-import GradShots17 from "../../img/Graduation/GradShots17.jpg";
-import GradShots18 from "../../img/Graduation/GradShots18.jpg";
-import GradShots19 from "../../img/Graduation/GradShots19.jpg";
-import GradShots20 from "../../img/Graduation/GradShots20.jpg";
-import GradShots21 from "../../img/Graduation/GradShots21.jpg";
-import GradShots22 from "../../img/Graduation/GradShots22.jpg";
-import GradShots23 from "../../img/Graduation/GradShots23.jpg";
-import GradShots24 from "../../img/Graduation/GradShots24.jpg";
-import GradShots25 from "../../img/Graduation/GradShots25.jpg";
-import GradShots27 from "../../img/Graduation/GradShots27.jpg";
+
+
 
 
 
 const Graduations = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
   const picsArray = [
-    GradShots0,
-    GradShots1,
-    GradShots2,
-    GradShots3,
-    GradShots4,
-    GradShots5,
-    GradShots6,
-    GradShots7,
-    GradShots8,
-    GradShots9,
-    GradShots10,
-    GradShots11,
-    GradShots12,
-    GradShots13,
-    GradShots14,
-    GradShots15,
-    GradShots16,
-    GradShots17,
-    GradShots18,
-    GradShots19,
-    GradShots20,
-    GradShots21,
-    GradShots22,
-    GradShots23,
-    GradShots24,
-    GradShots25,
-    GradShots27,
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots0.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots1.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots2.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots3.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots4.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots5.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots6.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots7.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots8.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots9.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots10.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots11.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots12.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots13.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots14.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots15.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots16.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots17.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots18.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots19.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots20.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots21.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots22.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots23.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots24.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots25.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/Graduation/GradShots27.jpg",
   ];
 
 

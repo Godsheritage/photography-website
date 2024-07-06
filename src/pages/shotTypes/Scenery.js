@@ -1,45 +1,30 @@
 import { motion } from "framer-motion";
-import React, { useContext, useState } from "react";
-import { transition1 } from "../../transitions";
-import { CursorContext } from "../../context/CursorContext";
-import Scenery0 from "../../img/scenery/Scenery0.jpg";
-import Scenery1 from "../../img/scenery/Scenery1.jpg";
-import Scenery2 from "../../img/scenery/Scenery2.jpg";
-import Scenery3 from "../../img/scenery/Scenery3.jpg";
-import Scenery4 from "../../img/scenery/Scenery4.jpg";
-import Scenery5 from "../../img/scenery/Scenery5.jpg";
-import Scenery6 from "../../img/scenery/Scenery6.jpg";
-import Scenery7 from "../../img/scenery/Scenery7.jpg";
-import Scenery8 from "../../img/scenery/Scenery8.jpg";
-import Scenery9 from "../../img/scenery/Scenery9.jpg";
-import Scenery10 from "../../img/scenery/Scenery10.jpg";
-import Scenery11 from "../../img/scenery/Scenery11.jpg";
-import Scenery12 from "../../img/scenery/Scenery12.jpg";
-import Scenery13 from "../../img/scenery/Scenery13.jpg";
-import Scenery14 from "../../img/scenery/Scenery14.jpg";
-import Scenery15 from "../../img/scenery/Scenery15.jpg";
-
 import Modal from "../../components/Modal";
+import { transition1 } from "../../transitions";
+import React, { useContext, useState } from "react";
+import { CursorContext } from "../../context/CursorContext";
+
 
 const Scenery = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
   const picsArray = [
-    Scenery0,
-    Scenery1,
-    Scenery2,
-    Scenery3,
-    Scenery4,
-    Scenery5,
-    Scenery6,
-    Scenery7,
-    Scenery8,
-    Scenery9,
-    Scenery10,
-    Scenery11,
-    Scenery12,
-    Scenery13,
-    Scenery14,
-    Scenery15,
+
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery0.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery1.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery2.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery3.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery4.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery5.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery6.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery7.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery8.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery9.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery10.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery11.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery12.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery13.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery14.jpg",
+    "https://photographysitebucket.s3.amazonaws.com/scenery/Scenery15.jpg",
   ];
 
 

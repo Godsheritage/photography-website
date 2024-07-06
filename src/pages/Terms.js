@@ -1,14 +1,10 @@
-import React, { useContext } from "react";
-// import images
-import WomanImg from "../img/about/manAbout.jpg";
-// import link
-import { Link } from "react-router-dom";
-// import motion
 import { motion } from "framer-motion";
-// import transition
+import { Link } from "react-router-dom";
+import React, { useContext } from "react";
 import { transition1 } from "../transitions";
-// import cursor context
+import WomanImg from "../img/about/manAbout.jpg";
 import { CursorContext } from "../context/CursorContext";
+
 
 const Terms = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
@@ -50,8 +46,11 @@ const Terms = () => {
               creating visual narratives. Whether you need graduation or wedding
               shoots, commercials, corporate videos, or more, I've got you
               covered. Feel free to follow me on social media for updates, or
-              navigate to the <Link to={"/pricing"} style={{textDecoration:"underline"}}  >Pricing</Link> page, if you have any questions about
-              pricing!
+              navigate to the{" "}
+              <Link to={"/pricing"} style={{ textDecoration: "underline" }}>
+                Pricing
+              </Link>{" "}
+              page, if you have any questions about pricing!
             </p>
             <Link to={"/portfolio"} className="btn">
               View my work
@@ -64,4 +63,3 @@ const Terms = () => {
 };
 
 export default Terms;
-
