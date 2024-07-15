@@ -59,6 +59,12 @@ const Header = () => {
           >
             Contact Me
           </Link>
+          <Link
+            to={"/terms"}
+            className="text-[#696c6d] hover:text-primary transition"
+          >
+            T&C's
+          </Link>
         </nav>
       </div>
       {/* socials */}

@@ -57,9 +57,9 @@ const Home = () => {
             >
               <motion.img
                 whileHover={{ scale: 1.1 }}
-                // style={{marginTop:"10rem"}}
+                style={{}}
                 transition={transition1}
-                src={WomanImg}
+                src={"https://photographysitebucket.s3.amazonaws.com/home/Heritage4.png"}
                 className=""
                 alt=""
               />

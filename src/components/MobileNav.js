@@ -72,6 +72,9 @@ const MobileNav = () => {
             <li>
               <Link to='/contact'>Contact</Link>
             </li>
+            <li>
+              <Link to='/terms'>T&C's</Link>
+            </li>
           </ul>
         </motion.div>
       )}
