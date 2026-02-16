@@ -31,266 +31,253 @@ const Terms = () => {
           >
             <h1 className="h1">Terms & Conditions</h1>
 
-            <div className="mb-12">
-              <p>
-                <strong>Effective Date: 1st January 2024</strong>
-              </p>
-              <p>
-                Welcome to Visuals By Heritage (“we,” “our,” “us,” or “Visuals
-                By Heritage”). These Terms and Conditions (“Terms”) govern your
-                use of our website, our services, and any transactions or
-                interactions with our business. By accessing or using our
-                website, engaging our services, or entering into any
-                transactions/bookings with us, you agree to be bound by these
-                Terms. If you do not agree with these Terms, please do not use
-                our website, services, or engage in any transactions/bookings
-                with us.
-              </p>
+           <body style="margin:0;padding:0;background:#ffffff;color:#111827;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Inter,Arial,sans-serif;line-height:1.6;">
+  <div style="max-width:900px;margin:0 auto;padding:28px 18px 60px;">
+    <div style="border:1px solid #e5e7eb;border-radius:14px;padding:22px 18px;">
+      <h1 style="margin:0 0 6px 0;font-size:28px;line-height:1.2;letter-spacing:-0.02em;">Terms &amp; Conditions</h1>
+      <p style="margin:0;color:#6b7280;font-size:14px;">
+        <strong>Effective Date:</strong> January 1, 2024
+      </p>
 
-              <h2 style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                1. Use of the Website and Services
-              </h2>
-              <h3 style={{ fontSize: "1.2em", fontWeight: "bold" }}>
-                1.1 Eligibility:
-              </h3>
-              <p>
-                You must be at least 18 years old to use our website and
-                services. By using our website or engaging our services, you
-                represent and warrant that you meet this age requirement.
-              </p>
+      <hr style="border:none;border-top:1px solid #e5e7eb;margin:18px 0;" />
 
-              <h3 style={{ fontSize: "1.2em", fontWeight: "bold" }}>
-                1.2 License to Use:
-              </h3>
-              <p>
-                We grant you a limited, non-exclusive, non-transferable, and
-                revocable license to access and use our website for personal,
-                non-commercial purposes.
-              </p>
+      <p style="margin:0 0 14px 0;">
+        Welcome to <strong>Visuals By Heritage</strong> (“Photographer,” “we,” “our,” or “us”). These Terms &amp; Conditions (“Terms”) govern all photography services, bookings, website use, and related interactions with our business. By booking a session, accessing our website, or purchasing services, you agree to these Terms.
+      </p>
 
-              <h3 style={{ fontSize: "1.2em", fontWeight: "bold" }}>
-                1.3 Prohibited Activities:
-              </h3>
-              <p>
-                You agree not to:
-                <ul>
-                  <li>Violate any applicable laws or regulations.</li>
-                  <li>
-                    Infringe upon or violate our intellectual property rights or
-                    the intellectual property rights of others.
-                  </li>
-                  <li>
-                    Engage in any activity that could harm or disrupt our
-                    website, services, or business operations.
-                  </li>
-                  <li>
-                    Attempt to gain unauthorized access to any portion of our
-                    website, services, or business operations.
-                  </li>
-                </ul>
-              </p>
+      <!-- Section 1 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">1. Services &amp; Artistic Style</h2>
 
-              <h2 style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                2. Intellectual Property
-              </h2>
-              <h3 style={{ fontSize: "1.2em", fontWeight: "bold" }}>
-                2.1 Ownership:
-              </h3>
-              <p>
-                All content on our website, including text, graphics, logos,
-                images, and software, as well as any photographs and materials
-                produced through our services, is the property of Visuals By
-                Heritage and is protected by copyright, trademark, and other
-                intellectual property laws.
-              </p>
+      <h3 style="margin:12px 0 6px 0;font-size:15px;">1.1 Photography Services</h3>
+      <p style="margin:0 0 10px 0;">
+        Visuals By Heritage provides professional photography services as described on our website, booking platform, or written communication.
+      </p>
 
-              <h3 style={{ fontSize: "1.2em", fontWeight: "bold" }}>
-                2.2 Limited License:
-              </h3>
-              <p>
-                You may view, download, and print content from our website for
-                your personal, non-commercial use only. Any other use, including
-                reproduction, distribution, or modification of the content, is
-                prohibited without our prior written consent.
-              </p>
+      <h3 style="margin:12px 0 6px 0;font-size:15px;">1.2 Artistic Discretion</h3>
+      <p style="margin:0 0 10px 0;">
+        Client acknowledges that photography is a creative service. The Photographer retains full artistic control over:
+      </p>
+      <ul style="margin:0 0 10px 18px;padding:0;">
+        <li style="margin:4px 0;">Posing guidance</li>
+        <li style="margin:4px 0;">Editing style</li>
+        <li style="margin:4px 0;">Image selection</li>
+        <li style="margin:4px 0;">Composition and lighting</li>
+      </ul>
+      <p style="margin:0 0 10px 0;">
+        Final delivered images will reflect the Photographer’s professional style and portfolio. Dissatisfaction based solely on artistic preference is not grounds for refunds.
+      </p>
 
-              <h3 style={{ fontSize: "1.2em", fontWeight: "bold" }}>
-                2.3 Rights to Photographs:
-              </h3>
-              <p>
-                All photographs taken by Visuals By Heritage are our sole
-                property. By engaging our services, you grant us the right to
-                use, reproduce, modify, distribute, and publicly display these
-                images in any form, for any purpose, and in any medium, whether
-                now known or hereafter developed, including but not limited to
-                advertising, marketing, portfolio display, and social media. You
-                acknowledge that you do not have any rights to these images, and
-                we are under no obligation to provide you with any credit or
-                compensation for their use.
-              </p>
+      <!-- Section 2 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">2. Eligibility</h2>
+      <p style="margin:0 0 10px 0;">
+        Clients must be at least 18 years old or have legal guardian consent to book services.
+      </p>
 
-              <h2 style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                3. Services and Products
-              </h2>
-              <h3 style={{ fontSize: "1.2em", fontWeight: "bold" }}>
-                3.1 Photography Services:
-              </h3>
-              <p>
-                We offer professional photography services as described on our
-                website and in our service agreements. The terms of each service
-                will be outlined in the service description on the website .
-              </p>
+      <!-- Section 3 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">3. Booking &amp; Payments</h2>
 
-              <h3 style={{ fontSize: "1.2em", fontWeight: "bold" }}>
-                3.2 Digital Products:
-              </h3>
-              <p>
-                Digital images or other products purchased from our website or
-                through our services are for personal use only and may not be
-                resold or used for commercial purposes without our prior written
-                consent.
-              </p>
+      <h3 style="margin:12px 0 6px 0;font-size:15px;">3.1 Booking Confirmation</h3>
+      <p style="margin:0 0 10px 0;">
+        A session is not confirmed until the required deposit is received.
+      </p>
 
-              <h2 style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                4. Booking and Payment
-              </h2>
-              <h3 style={{ fontSize: "1.2em", fontWeight: "bold" }}>
-                4.1 Booking:
-              </h3>
-              <p>
-                To book our services, you must complete the booking process on
-                our website or through direct communication with us, providing
-                accurate and complete information.
-              </p>
+      <h3 style="margin:12px 0 6px 0;font-size:15px;">3.2 Payment Structure</h3>
+      <ul style="margin:0 0 10px 18px;padding:0;">
+        <li style="margin:4px 0;">50% non-refundable deposit due at booking</li>
+        <li style="margin:4px 0;">Remaining balance due before final image delivery</li>
+      </ul>
+      <p style="margin:0 0 10px 0;">Payments accepted via:</p>
+      <ul style="margin:0 0 10px 18px;padding:0;">
+        <li style="margin:4px 0;">Website payment portal</li>
+        <li style="margin:4px 0;">Zelle</li>
+        <li style="margin:4px 0;">CashApp</li>
+        <li style="margin:4px 0;">Apple Pay (by agreement)</li>
+      </ul>
+      <p style="margin:0 0 10px 0;">Checks are not accepted.</p>
 
-              <h3 style={{ fontSize: "1.2em", fontWeight: "bold" }}>
-                4.2 Payment:
-              </h3>
-              <p>
-                Payment for services or products must be made in two
-                installments: a 50% deposit at the time of booking and the
-                remaining 50% before the final images are delivered. Payments
-                can be made through the payment portal on our website. Alternatively,
-                Zelle, CashApp, or Apple Pay can be used upon mutual agreement.
-                Checks are not accepted. Payment of the deposit signifies
-                agreement to all Visuals by Heritge policies. An additional $20
-                surcharge will be added for all sessions where the client is
-                more than 15 minutes late.{" "}
-                <strong>
-                  {" "}
-                  Session end times will not be extended to accommodate client
-                  lateness{" "}
-                </strong>
-                . For collaborations or creative endeavors with no monetary
-                gain, Visuals by Heritage retains all rights to the photos taken
-                and may use them however and whenever desired.
-              </p>
+      <h3 style="margin:12px 0 6px 0;font-size:15px;">3.3 Late Arrival</h3>
+      <p style="margin:0 0 10px 0;">
+        Clients arriving more than 15 minutes late will incur a $20 surcharge. Session times will not be extended to compensate for lateness.
+      </p>
 
-              <h3 style={{ fontSize: "1.2em", fontWeight: "bold" }}>
-                4.3 Rescheduling & cancellations:
-              </h3>
-              <p>
-                If you are unable to make your photo session all deposits will
-                act as a cancellation fee. 72 hours of advance notice of
-                cancellation is required in order to credit the deposit towards
-                a future session or a half refund. If not notified within 24
-                hours of the session the half deposit rule is cleared and there
-                will be no refund BUT the client can reschedule for FREE on a
-                day that fits the photographers schedule within 3 months. The
-                photographer reserves the right to deny service to any client(s)
-                who repeatedly have a history of cancellations. If Visuals by
-                Heritage cannot perform this contract due to fire or other
-                casualty, strike, act of God, or other cause beyond the control
-                of the parties, or due to illness or emergency, then the
-                Videographer/Photographer shall return the retainer fee to the
-                client, but shall have no further liability with respect to the
-                contract. This shall also apply in the event that photographic
-                materials are damaged in processing, lost through camera or
-                other media malfunction, lost in mail or otherwise lost or
-                damaged without fault on the part of the Photographer. In the
-                event Visuals by Heritage fails for any other reason, Visuals by
-                Heritage shall not be liable for any amount in excess of all
-                monies paid.
-              </p>
+      <!-- Section 4 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">4. Cancellation &amp; Rescheduling</h2>
 
-              <h2 style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                5. Late Payment Charges
-              </h2>
-              <h3 style={{ fontSize: "1.2em", fontWeight: "bold" }}>
-                5.1 Late Payment:
-              </h3>
-              <p>
-                If the remaining 50% of the payment is not received before the
-                final images are delivered, a late payment charge of $50 will be
-                applied. The final images will not be delivered until full
-                payment, including any late fees, is received, and if full
-                payment is not received after 10 days of the invoice being sent
-                your pictures could be permanently deleted.
-              </p>
+      <h3 style="margin:12px 0 6px 0;font-size:15px;">4.1 Client Cancellation</h3>
+      <ul style="margin:0 0 10px 18px;padding:0;">
+        <li style="margin:4px 0;">72+ hours notice → deposit may be credited toward future session or partial refund.</li>
+        <li style="margin:4px 0;">Less than 72 hours → deposit forfeited.</li>
+        <li style="margin:4px 0;">Less than 24 hours → no refund; one free reschedule allowed within 3 months based on Photographer availability.</li>
+      </ul>
 
+      <h3 style="margin:12px 0 6px 0;font-size:15px;">4.2 Photographer Cancellation</h3>
+      <p style="margin:0 0 10px 0;">
+        If Photographer cannot perform due to illness, emergency, act of God, equipment failure, or circumstances beyond control, all monies paid will be refunded. Liability is limited to amounts paid.
+      </p>
 
-              <h2 style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                6. Limitation of Liability
-              </h2>
-              <h3 style={{ fontSize: "1.2em", fontWeight: "bold" }}>
-                6.1 Disclaimer:
-              </h3>
-              <p>
-                Our website, services, and products are provided “as is” and “as
-                available” without any warranties, express or implied. We do not
-                guarantee that our website or services will be error-free,
-                secure, or uninterrupted.
-              </p>
+      <h3 style="margin:12px 0 6px 0;font-size:15px;">4.3 Repeated Cancellations</h3>
+      <p style="margin:0 0 10px 0;">
+        Photographer reserves the right to refuse future service to clients with repeated cancellations.
+      </p>
 
-              <h3 style={{ fontSize: "1.2em", fontWeight: "bold" }}>
-                6.2 Limitation:
-              </h3>
-              <p>
-                To the maximum extent permitted by law, we shall not be liable
-                for any indirect, incidental, special, or consequential damages
-                arising out of or in connection with your use of our website,
-                services, or products.
-              </p>
+      <!-- Section 5 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">5. Client Responsibilities</h2>
+      <p style="margin:0 0 10px 0;">Client agrees to:</p>
+      <ul style="margin:0 0 10px 18px;padding:0;">
+        <li style="margin:4px 0;">Arrive on time</li>
+        <li style="margin:4px 0;">Communicate requested shots in advance</li>
+        <li style="margin:4px 0;">Ensure safe and legal shooting locations</li>
+        <li style="margin:4px 0;">Follow Photographer’s posing and safety guidance</li>
+      </ul>
+      <p style="margin:0 0 10px 0;">
+        Photographer is not responsible for missed images due to lack of cooperation, late arrival, or client preparation.
+      </p>
 
-              <h2 style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                7. Indemnification
-              </h2>
-              <p>
-                You agree to indemnify, defend, and hold harmless Visuals By
-                Heritage, its officers, directors, employees, and agents from
-                and against any claims, liabilities, damages, losses, or
-                expenses arising out of or in any way connected with your use of
-                our website, services, or products, your breach of these Terms,
-                or your violation of any law or the rights of a third party.
-              </p>
+      <!-- Section 6 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">6. Image Delivery</h2>
 
-              <h2 style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                8. Governing Law
-              </h2>
-              <p>
-                These Terms shall be governed by and construed in accordance
-                with the laws of Maryland, United States, without regard to its
-                conflict of laws principles.
-              </p>
+      <h3 style="margin:12px 0 6px 0;font-size:15px;">6.1 Delivery Timeline</h3>
+      <p style="margin:0 0 10px 0;">
+        Estimated delivery timelines will be communicated at booking. Delays may occur during peak seasons.
+      </p>
 
-              <h2 style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                9. Changes to These Terms
-              </h2>
-              <p>
-                We reserve the right to modify these Terms at any time. Any
-                changes will be effective immediately upon posting on our
-                website. Your continued use of our website, services, or
-                engagement in transactions with us after any changes constitutes
-                your acceptance of the new Terms.
-              </p>
-              <h2 style={{ fontSize: "1.5em", fontWeight: "bold" }}>
-                10. Contact Us
-              </h2>
-              <p>
-                If you have any questions or concerns about these Terms, please
-                contact us at: Visuals By Heritage <strong>4439292178</strong>
-              </p>
-            </div>
+      <h3 style="margin:12px 0 6px 0;font-size:15px;">6.2 Delivery Method</h3>
+      <p style="margin:0 0 10px 0;">
+        Final images will be delivered via online gallery or digital download.
+      </p>
+
+      <h3 style="margin:12px 0 6px 0;font-size:15px;">6.3 File Storage</h3>
+      <p style="margin:0 0 10px 0;">
+        Final galleries are archived for up to <strong>30 days</strong> after delivery. Long-term storage is not guaranteed.
+      </p>
+
+      <!-- Section 7 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">7. Copyright &amp; Usage Rights</h2>
+
+      <h3 style="margin:12px 0 6px 0;font-size:15px;">7.1 Ownership</h3>
+      <p style="margin:0 0 10px 0;">
+        All photographs remain the sole copyright property of Visuals By Heritage.
+      </p>
+
+      <h3 style="margin:12px 0 6px 0;font-size:15px;">7.2 Client License</h3>
+      <p style="margin:0 0 10px 0;">Clients receive a personal-use license allowing:</p>
+      <ul style="margin:0 0 10px 18px;padding:0;">
+        <li style="margin:4px 0;">Personal sharing</li>
+        <li style="margin:4px 0;">Printing for personal use</li>
+        <li style="margin:4px 0;">Social media posting</li>
+      </ul>
+      <p style="margin:0 0 10px 0;">
+        Commercial use, resale, editing, or redistribution is prohibited without written permission.
+      </p>
+
+      <!-- Section 8 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">8. Model Release &amp; Marketing Usage</h2>
+      <p style="margin:0 0 10px 0;">
+        Client grants Visuals By Heritage unrestricted permission to use images for:
+      </p>
+      <ul style="margin:0 0 10px 18px;padding:0;">
+        <li style="margin:4px 0;">Portfolio display</li>
+        <li style="margin:4px 0;">Website</li>
+        <li style="margin:4px 0;">Social media</li>
+        <li style="margin:4px 0;">Advertising &amp; marketing campaigns</li>
+        <li style="margin:4px 0;">Printed or digital promotional materials</li>
+      </ul>
+      <p style="margin:0 0 10px 0;">
+        No compensation or additional approval is required for such use.
+      </p>
+
+      <!-- Section 9 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">9. Collaborations</h2>
+      <p style="margin:0 0 10px 0;">
+        For unpaid collaborations or creative shoots, Visuals By Heritage retains full ownership and unrestricted usage rights to all images.
+      </p>
+
+      <!-- Section 10 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">10. Safety &amp; Conduct</h2>
+      <p style="margin:0 0 10px 0;">
+        Photographer reserves the right to immediately terminate a session without refund if:
+      </p>
+      <ul style="margin:0 0 10px 18px;padding:0;">
+        <li style="margin:4px 0;">Unsafe conditions exist</li>
+        <li style="margin:4px 0;">Illegal activity occurs</li>
+        <li style="margin:4px 0;">Harassment or inappropriate behavior happens</li>
+        <li style="margin:4px 0;">Environment risks photographer equipment or personal safety</li>
+      </ul>
+
+      <!-- Section 11 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">11. Satisfaction Guarantee (Graduation Sessions)</h2>
+      <p style="margin:0 0 10px 0;">
+        Visuals By Heritage aims to deliver exceptional results consistent with our artistic style.
+      </p>
+      <p style="margin:0 0 10px 0;">
+        If the Client does not love at least five (5) final edited images, we offer one (1) complimentary reshoot under the following conditions:
+      </p>
+      <ol style="margin:0 0 10px 18px;padding:0;">
+        <li style="margin:6px 0;">Guarantee applies only to final edited images.</li>
+        <li style="margin:6px 0;">Client must notify Photographer within 72 hours of gallery delivery.</li>
+        <li style="margin:6px 0;">One (1) reshoot maximum; no refunds.</li>
+        <li style="margin:6px 0;">Reshoot must occur within 90 days based on availability.</li>
+        <li style="margin:6px 0;">Reshoot matches original package scope.</li>
+        <li style="margin:6px 0;">Creative style remains at Photographer’s discretion.</li>
+        <li style="margin:6px 0;">Guarantee is void if images have been downloaded, posted, or used prior to request.</li>
+      </ol>
+      <p style="margin:0 0 10px 0;">
+        Eligibility is determined by Visuals By Heritage in good faith.
+      </p>
+
+      <!-- Section 12 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">12. Limitation of Liability</h2>
+      <p style="margin:0 0 10px 0;">
+        To the maximum extent permitted by law:
+      </p>
+      <ul style="margin:0 0 10px 18px;padding:0;">
+        <li style="margin:4px 0;">Photographer is not liable for indirect, incidental, or consequential damages.</li>
+        <li style="margin:4px 0;">Liability is limited to total amounts paid by client.</li>
+        <li style="margin:4px 0;">Photographer is not responsible for events outside control including weather, location restrictions, or equipment failure.</li>
+      </ul>
+
+      <!-- Section 13 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">13. Indemnification</h2>
+      <p style="margin:0 0 10px 0;">
+        Client agrees to indemnify and hold harmless Visuals By Heritage from any claims, damages, or liabilities arising from participation in photography services.
+      </p>
+
+      <!-- Section 14 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">14. Website Use</h2>
+      <p style="margin:0 0 10px 0;">Users may not:</p>
+      <ul style="margin:0 0 10px 18px;padding:0;">
+        <li style="margin:4px 0;">Copy or redistribute website content</li>
+        <li style="margin:4px 0;">Attempt unauthorized access</li>
+        <li style="margin:4px 0;">Violate intellectual property rights</li>
+      </ul>
+
+      <!-- Section 15 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">15. Governing Law</h2>
+      <p style="margin:0 0 10px 0;">
+        These Terms are governed by the laws of the State of Maryland, USA.
+      </p>
+
+      <!-- Section 16 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">16. Changes to Terms</h2>
+      <p style="margin:0 0 10px 0;">
+        We reserve the right to update these Terms at any time. Continued use of services constitutes acceptance of revisions.
+      </p>
+
+      <!-- Section 17 -->
+      <h2 style="margin:22px 0 8px 0;font-size:18px;line-height:1.3;">17. Contact Information</h2>
+      <p style="margin:0;">
+        <strong>Visuals By Heritage</strong><br />
+        Phone: <a href="tel:14439292178" style="color:#111827;text-decoration:underline;">443-929-2178</a>
+      </p>
+
+      <div style="margin-top:18px;padding:12px 12px;border:1px solid #e5e7eb;border-radius:12px;background:#f9fafb;">
+        <p style="margin:0;font-size:13px;color:#6b7280;">
+          Tip: You can paste this entire HTML into a “Custom HTML” block on most website builders. If your builder strips the <code style="font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;">&lt;html&gt;</code> and <code style="font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;">&lt;head&gt;</code> tags, paste only the content inside the <code style="font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;">&lt;body&gt;</code>.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
           </motion.div>
         </div>
       </div>
